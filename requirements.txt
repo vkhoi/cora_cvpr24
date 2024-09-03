@@ -1,0 +1,9 @@
+jupyterlab
+nltk
+numpy==1.23.4
+opencv-python
+Pillow
+prettytable
+tqdm
+transformers
+yacs
