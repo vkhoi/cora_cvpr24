@@ -74,6 +74,10 @@ For the region features, instead of using a single file as in previous work (e.g
 
 The scene graph parser code will be released. In the meantime, please checkout the following great work on parsing textual scene graphs: [FACTUAL](https://github.com/zhuang-li/FactualSceneGraph). With some modifications, the scene graphs produced from this work can also be used within our code.
 
+## Pretrained checkpoints
+All pretrained checkpoints will be uploaded [here](https://drive.google.com/drive/folders/1CcFFYMzY8eu7YDbM8YNQNqAMCjcFSFnN?usp=drive_link).
+* `f30k_gru_scratch.pth`: on Flickr30K, GRU, trained from scratch.
+
 ## Training
 All config files can be found in the `config` folder. To run training, find the config file corresponding to the settings you want to run, make adjustment for your environment, hyperparams, etc., and launch training with
 ```
